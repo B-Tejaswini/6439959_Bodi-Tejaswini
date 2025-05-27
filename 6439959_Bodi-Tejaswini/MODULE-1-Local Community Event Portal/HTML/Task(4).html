@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Local Community Event Portal</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Sections */
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      border-top: 1px solid #ccc;
+    }
+
+    /* Welcome Banner */
+    #welcomeBanner {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 1.2em;
+    }
+
+    /* Highlight class */
+    .highlight {
+      background-color: yellow;
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+
+    /* Table / Image Gallery */
+    table {
+      width: 100%;
+      text-align: center;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    caption {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .eventImage {
+      width: 100%;
+      max-width: 200px;
+      border: 3px solid #555;
+      border-radius: 10px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Welcome Banner -->
+  <div id="welcomeBanner">
+    Welcome back, <strong class="highlight">Tejaswini</strong>!
+    <span style="color: red; font-weight: bold;">Don't miss our upcoming Summer Fest!</span>
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+    <a href="help.html" target="_blank">Help</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Home Section -->
+    <section id="home">
+      <h1>Welcome to the <span class="highlight">Local Community Event Portal</span></h1>
+      <p>This portal helps you find and register for <span class="highlight">local events</span> easily.</p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+      <h2>Upcoming Events</h2>
+      <p>Stay tuned for <span class="highlight">community events</span> happening near you!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: support@localportal.com</p>
+      <p>Phone: +1-234-567-8900</p>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section id="gallery">
+      <h2>Past Community Events</h2>
+
+      <table>
+        <caption>Memories from Previous Events</caption>
+        <tr>
+          <td>
+            <img src="event1.jpg" alt="Music Festival" title="Music Festival 2024" class="eventImage">
+            <p><strong>Music Festival</strong></p>
+          </td>
+          <td>
+            <img src="event2.jpg" alt="Tree Plantation Drive" title="Tree Plantation Drive" class="eventImage">
+            <p><strong>Tree Plantation</strong></p>
+          </td>
+          <td>
+            <img src="event3.jpg" alt="Food Donation Camp" title="Food Donation Camp" class="eventImage">
+            <p><strong>Food Donation</strong></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="event4.jpg" alt="Independence Day Parade" title="Parade Celebration" class="eventImage">
+            <p><strong>Independence Day</strong></p>
+          </td>
+          <td>
+            <img src="event5.jpg" alt="Art & Craft Exhibition" title="Exhibition 2024" class="eventImage">
+            <p><strong>Art Exhibition</strong></p>
+          </td>
+          <td>
+            <img src="event6.jpg" alt="Yoga Session in Park" title="Morning Yoga" class="eventImage">
+            <p><strong>Yoga in the Park</strong></p>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Local City Council. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
