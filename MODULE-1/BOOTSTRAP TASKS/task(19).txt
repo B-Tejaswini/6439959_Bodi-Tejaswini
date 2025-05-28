@@ -1,0 +1,35 @@
+<!-- Exercise 19.1 & 19.2: Bootstrap 5 Customization with Sass -->
+<!-- Step 1: Initialize npm and install Bootstrap + Sass
+npm init -y
+npm install bootstrap sass --save-dev
+-->
+
+<!-- Step 2: Create _custom.scss and override Bootstrap variables
+Example:
+$primary: #198754;
+$border-radius: 0.75rem;
+-->
+
+<!-- Step 3: Create main.scss and import Bootstrap after custom overrides
+
+// main.scss
+@import "custom"; 
+@import "bootstrap/scss/bootstrap"; 
+-->
+
+<!-- Step 4: Add build script to package.json
+
+"scripts": {
+  "build": "sass scss/main.scss dist/main.css"
+}
+-->
+
+<!-- Step 5: Compile the Sass file to CSS
+npm run build
+-->
+
+<!-- Step 6: Link the generated CSS in your HTML file:
+<link rel="stylesheet" href="dist/main.css">
+-->
+
+<!-- Result: Custom Bootstrap theme with your defined colors and border radius -->
